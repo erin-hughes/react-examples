@@ -1,0 +1,9 @@
+@use '@carbon/layout';
+
+.buttonLabelCombo {
+  margin-top: layout.$spacing-09;
+
+  p {
+    margin-bottom: layout.$spacing-03;
+  }
+}

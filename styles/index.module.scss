@@ -1,0 +1,16 @@
+@use '@carbon/layout';
+
+.tocContainer {
+  display: flex;
+  flex-direction: column;
+  margin-top: layout.$spacing-07;
+  margin-left: layout.$spacing-07;
+
+  h1 {
+    margin-bottom: layout.$spacing-07;
+  }
+
+  a {
+    margin-bottom: layout.$spacing-05;
+  }
+}
